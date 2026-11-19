@@ -16,12 +16,12 @@ public class UserRepository {
     public UserRepository() {
         users = new ArrayList<>();
 
-        User userAdmin = new User(UUID.randomUUID(), "Administrator","admin_Thanu", "1234", true );
-        User userEditor = new User(UUID.randomUUID(), "Editor" ,"editor_Thana", "e1234",  true);
-        User userCustomer = new User(UUID.randomUUID(), "Customer", "customer_Oudom", "c1234", true);
-        users.add(userAdmin);
-        users.add(userCustomer);
-        users.add(userEditor);
+//        User userAdmin = new User(UUID.randomUUID(), "Administrator","admin_Thanu", "1234", true );
+//        User userEditor = new User(UUID.randomUUID(), "Editor" ,"editor_Thana", "e1234",  true);
+//        User userCustomer = new User(UUID.randomUUID(), "Customer", "customer_Oudom", "c1234", true);
+//        users.add(userAdmin);
+//        users.add(userCustomer);
+//        users.add(userEditor);
     }
 
     public List<User> selectAll() {

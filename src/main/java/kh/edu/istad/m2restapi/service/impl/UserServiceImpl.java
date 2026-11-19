@@ -29,15 +29,15 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User create(CreateUserRequest createUserRequest) {
-        User user = new User(
-                UUID.randomUUID(),
-                createUserRequest.name(),
-                createUserRequest.username(),
-                createUserRequest.password(),
-                true
-        );
-        userRepository.insert(user);
-        return user;
+//        User user = new User(
+//                UUID.randomUUID(),
+//                createUserRequest.name(),
+//                createUserRequest.username(),
+//                createUserRequest.password(),
+//                true
+//        );
+//        userRepository.insert(user);
+        return null;
     }
 
     @Override
